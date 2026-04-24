@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['asteroid', 'comet', 'meteor', 'star']
+
+roboflow:
+  workspace: meghas-workspace-klq4w
+  project: celestial-object-detection-jgib7
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/meghas-workspace-klq4w/celestial-object-detection-jgib7/2
